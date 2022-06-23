@@ -5,6 +5,10 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+span {
+   font-style: italic;
+   font-size: 15px;
+}
 
 body {
   font-family: "Roboto", sans-serif;
