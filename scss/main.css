@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 5% 20%;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    margin: 5% 15%;
+  }
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+}
+
+h5 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 175%;
+  color: #1e1e1e;
+}
+
+figcaption {
+  text-align: center;
+  color: #373739;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+header .header-image {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0.308561)), color-stop(50%, rgba(0, 0, 0, 0.252539)), to(rgba(0, 0, 0, 0.213323))), url("https://cloud.jpnn.com/photo/arsip/watermark/2021/06/18/marc-marquez-93-foto-motogpcom-21.jpg");
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.308561) 0%, rgba(0, 0, 0, 0.252539) 50%, rgba(0, 0, 0, 0.213323) 100%), url("https://cloud.jpnn.com/photo/arsip/watermark/2021/06/18/marc-marquez-93-foto-motogpcom-21.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 75%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 100%;
+  height: 45vh;
+  color: white;
+  text-align: center;
+}
+
+header .heading {
+  position: absolute;
+}
+
+header .heading h1 {
+  font-size: 4rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#272729), to(#1e3769));
+  background-image: linear-gradient(to right, #272729, #1e3769);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  background: -webkit-gradient(linear, left top, right top, from(#ff5f6d), to(#ffc371));
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  z-index: 100;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+article {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
