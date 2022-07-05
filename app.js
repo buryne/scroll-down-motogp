@@ -13,9 +13,9 @@ const animateProgressBar = () => {
   let value = Math.floor(progressWidth);
   progressBar.style.width = `${value}%`;
 
-  console.log(value);
+  
 
-  console.log(progressWidth);
+  
   // console.log(scrollDistance);
 };
 
