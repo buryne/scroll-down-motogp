@@ -1,6 +1,6 @@
 const progressBar = document.querySelector("#progress-bar");
 const section = document.querySelector("section");
-const heading = document.querySelector(".header-image");
+
 
 const animateProgressBar = () => {
   let scrollDistance = -section.getBoundingClientRect().top;
